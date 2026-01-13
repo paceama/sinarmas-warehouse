@@ -1,7 +1,6 @@
-import type { NextConfig } from "next";
+import { redirect } from 'next/navigation';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+export default function RootPage() {
+  // Otomatis mengarahkan ke halaman login
+  redirect('/login');
+}

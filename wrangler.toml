@@ -1,6 +1,6 @@
 name = "sinarmas-warehouse"
 compatibility_date = "2024-11-01"
-compatibility_flags = ["nextjs_control_all_headers"]
+pages_build_output_dir = ".vercel/output"
 
 [vars]
-# Variabel lingkungan jika diperlukan
+# Jangan isi GAS_URL di sini, tetap di dashboard Cloudflare saja demi keamanan
